@@ -1,0 +1,46 @@
+{
+    "Spores": [
+        {
+            "title": "Spore 1",
+            "image": "/images/Spore1.png",
+            "price": "$15"
+        },
+        {
+            "title": "Spore 2",
+            "image": "/images/Spore2.png",
+            "price": "$15"
+        },
+        {
+            "title": "Spore 3",
+            "image": "/images/Spore3.png",
+            "price": "$20"
+        },
+        {
+            "title": "Spore 4",
+            "image": "/images/Spore4.png",
+            "price": "$10"
+        }
+    ],
+    "Liquid Culture": [
+        {
+            "title": "Liquid Culture 1",
+            "image": "/images/LiquidCulture1.png",
+            "price": "$20"
+        },
+        {
+            "title": "Liquid Culture 2",
+            "image": "/images/LiquidCulture2.png",
+            "price": "$10"
+        },
+        {
+            "title": "Liquid Culture 3",
+            "image": "/images/LiquidCulture3.png",
+            "price": "$10"
+        },
+        {
+            "title": "Liquid Culture 4",
+            "image": "/images/LiquidCulture4.png",
+            "price": "$20"
+        }
+    ]
+}

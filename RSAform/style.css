@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 2rem;
+}
+
+
+main {
+    max-width: 900px;
+    height: auto
+    
+    
+
+}

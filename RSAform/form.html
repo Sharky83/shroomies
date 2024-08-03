@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Encryption Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+
+</head>
+<body>
+    <main>
+        <h1>Encryption Form</h1>
+        <form id="encryptionForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br><br>
+        
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" name="mobile" required><br><br>
+        
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+        
+            <label for="numbers">Enter 5 numbers (comma-separated):</label>
+            <input type="text" id="numbers" name="numbers" placeholder="e.g., 1,2,3,4,5" required><br><br>
+        
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <div id="qrCodeContainer" style="margin-top: 20px;"></div>
+        <button id="copyButton" style="display: none;" onclick="copyToClipboard()">Copy to Clipboard</button>
+   
+   
+   
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
