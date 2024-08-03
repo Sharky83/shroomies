@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('./js/shopItems.json') 
+    fetch('./shopItems.json') 
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -45,3 +45,7 @@ function createItemElement(item) {
 
     return itemElement;
 }
+
+
+
+
